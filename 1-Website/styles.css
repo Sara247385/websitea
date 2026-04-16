@@ -10,7 +10,10 @@ body{
     color:#fff;
     overflow-x:hidden;
 }
-
+.navbar img{
+    /* border: 1px solid white; */
+    width: 50px;
+}
 /* NAVBAR */
 nav{
     position:fixed;
@@ -62,6 +65,7 @@ nav ul li:hover{
     left:50%;
     transform:translate(-50%,-50%);
     text-align:center;
+    width: 100%;
 }
 
 .hero-content h1{
@@ -134,7 +138,7 @@ nav ul li:hover{
 /* PARALLAX */
 .parallax{
     height:60vh;
-    background:url('https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8') center/cover fixed;
+    background:url('./images/parallex-img.jpg') center/cover fixed;
     display:flex;
     align-items:center;
     justify-content:center;
